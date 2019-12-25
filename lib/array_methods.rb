@@ -3,10 +3,12 @@ def using_include(array, element)
 end
 
 def using_sort(array)
+  # array.sort! to sort in place
   array.sort
 end
 
 def using_reverse(array)
+  # array.reverse! to reverse in place
   array.reverse
 end
 
